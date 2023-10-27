@@ -1,0 +1,41 @@
+  /* 전체 선택자 중에 제일 순위 낮은 *임. */
+  *{ 
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 500px;
+}
+.main{
+    /* 박스의 위치를 수평적인 가운데로 */
+    margin: auto;
+ 
+}
+img{
+    width: 500px;
+}   
+.section{
+    border: 1px solid black;
+    color: rgb(165, 154, 238);
+   padding: 10px;
+   font-size: 17px;
+   text-decoration: '돋움';
+   
+}
+
+
+p{  
+    /* 줄간격 */
+    line-height: 33px;
+}
+.accent{
+    font-style: '돋움';
+    font-size: 25px;
+    font-weight: 650;
+    color: slateblue;
+    text-align: left;
+    background-color: rgb(212, 212, 228);
+    border-radius: 25px;
+
+
+}
